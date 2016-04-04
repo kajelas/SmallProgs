@@ -37,7 +37,7 @@ public class BubbleSortAlgorithm {
 	}
 	
 	public static void main(String[] args) {
-		String[] input = {"3","4","2","1","7","5","6","8"};
+		String[] input = {"3","4","2","1","7","5","6","8","9","10"};
 		List<String> inputList = Arrays.asList(input);
 		BubbleSortAlgorithm.sort(inputList);
 		System.out.println(inputList.toString());
