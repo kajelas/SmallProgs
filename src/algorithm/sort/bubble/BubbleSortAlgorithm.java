@@ -5,7 +5,7 @@ import java.util.List;
 
 public class BubbleSortAlgorithm {
 	public static void sort(List<String> unsortedList) {
-//˫listʵ��
+//Ë«listÊµÏÖ
 //		List<String> resultList = new ArrayList<String>();
 //		for (String item : unsortedList) {
 //			if (resultList.isEmpty())
@@ -37,7 +37,7 @@ public class BubbleSortAlgorithm {
 	}
 	
 	public static void main(String[] args) {
-		String[] input = {"3","4","2","1","7","5","6","8","9","13"};
+		String[] input = {"3","4","2","1","7","5","6","8","9","13","15"};
 		List<String> inputList = Arrays.asList(input);
 		BubbleSortAlgorithm.sort(inputList);
 		System.out.println(inputList.toString());
